@@ -2,6 +2,27 @@
  	General
 -------------*/
 
+.fa-1x {
+font-size: 1.5rem;
+}
+.navbar-toggler.toggler-example {
+cursor: pointer;
+}
+.dark-text {
+color: #305283;
+}
+
+nav {
+	background-color: #fff;
+	color: #305283;
+}
+
+nav, ul, li {
+	float: right;
+	color: #305283;
+}
+
+
 * {
 	margin: 0;
 	padding: 0;
@@ -19,9 +40,14 @@ html{
 h1 {
 	color: #414a4f;
 	text-transform: capitalize;
-	font: 'Open Sans', sans-serif;
+	font: sans-serif;
 	margin-bottom: 35px;
 	text-align: center;
+	font-weight: 400;
+}
+
+nav {
+		color: rgba(255,255,255,0.6);
 }
 
 ul, nav{
@@ -30,6 +56,7 @@ ul, nav{
 
 nav ul li {
     display: inline-block;
+		float: right;
     margin: 55px;
     margin-bottom: 15px;
     margin-top: 25px;
@@ -179,6 +206,10 @@ header nav a :last-child{
 	font-size: 12px;
 }
 
+.card-body{
+	background-color: whitesmoke;
+}
+
 
 
 
@@ -211,6 +242,7 @@ header nav a :last-child{
 
 .stack .grid li p{
     margin: 0;
+		color: #414a4f;
 }
 
 
@@ -254,6 +286,10 @@ footer p a{
 	align-content: center;
 }
 
+.social-icons{
+	color: #fff;
+}
+
 
 
 @media only screen and (max-width: 500px) {
@@ -261,6 +297,7 @@ footer p a{
         text-align: center;
     }
     nav ul li {
+			text-align: center;
         margin: 20px;
      }
 
@@ -285,8 +322,9 @@ footer p a{
 nav ul {
 		text-align: center;
 }
+
 nav ul li {
-		/* margin: 20px; */
+		margin: 20px;
 }
 .project {
 		margin: 40px 0;
