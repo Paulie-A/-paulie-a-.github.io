@@ -336,20 +336,18 @@ nav ul {
 nav ul li {
 		margin: 20px;
 }
+
 .project {
 		margin: 40px 0;
 }
 
 
 .stack .grid li{
+	display: flex;
 	display: inline-block;
 	padding: 0 5px;
 	margin: 30px auto;
 	text-align: center;
-}
-
-.stack{
-	display: flex;
 }
 
 
