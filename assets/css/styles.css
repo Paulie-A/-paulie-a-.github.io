@@ -227,20 +227,20 @@ header nav a :last-child{
 ----------------------*/
 
 .stack {
-	height: 75vh;
+	/* height: 75vh; */
 	flex-basis: 100%;
 }
 
 .stack .grid li{
-	padding: 0 50px;
-	margin: 50px auto;
+	padding: 0 10px;
+	margin-bottom: 50px;
 	text-align: center;
 }
 
 .stack .grid li i{
-    font-size: 50px;
-    margin-bottom: 25px;
-		color: #414a4f;
+    font-size: 35px;
+    margin-bottom: 10px;
+	color: #414a4f;
 }
 
 .stack .grid li h4{
@@ -251,7 +251,7 @@ header nav a :last-child{
 
 .stack .grid li p{
     margin: 0;
-		color: #414a4f;
+	color: #414a4f;
 }
 
 
@@ -341,14 +341,12 @@ nav ul li {
 		margin: 40px 0;
 }
 
-
-.stack .grid li{
-	display: flex;
-	display: inline-block;
-	padding: 0 5px;
-	margin: 30px auto;
-	text-align: center;
+.stack .grid li {
+	dislpay: flex;
+    display: inline-block;
+    padding: 0 5px;
+    margin: auto;
+    text-align: center;
 }
-
 
 }
