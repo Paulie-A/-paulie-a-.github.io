@@ -5,18 +5,16 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<!-- Font Awesome -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-<!-- Bootstrap core CSS -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
-<!-- Material Design Bootstrap -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.7/css/mdb.min.css" rel="stylesheet">
-<!-- Imported fonts -->
-<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Quicksand, " rel="stylesheet">
-
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.7/css/mdb.min.css" rel="stylesheet">
+  <!-- Imported fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand, " rel="stylesheet">
 
   <link rel="stylesheet" href="assets/css/styles.css">
   <title>Paul August - Portfolio</title>
@@ -29,12 +27,13 @@
     <nav class="navbar fixed-top">
 
       <!-- Navbar brand -->
-      <a class="navbar-brand" href=""></a>
+      <a class="navbar-brand" href="">Paul August</a>
+    
 
       <!-- Collapse button -->
-      <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
-        aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-text"><i
-            class="fas fa-bars fa-1x"></i></span></button>
+      <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse"
+        data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false"
+        aria-label="Toggle navigation"><span class="dark-text"><i class="fas fa-bars fa-1x"></i></span></button>
 
       <!-- Collapsible content -->
       <div class="collapse navbar-collapse" id="navbarSupportedContent1">
@@ -67,7 +66,8 @@
     <h3 class="title">Web Development and Programming Portfolio</h3>
     <p>Hi I'm Paul..., Welcome to my portfolio page!</p>
     <p>
-      Monday-Friday I currently work in Finance & Accounting, evenings and weekends I'm levelling up my programming skills
+      Monday-Friday I currently work in Finance & Accounting, evenings and weekends I'm levelling up my programming
+      skills
     </p>
     <p>Scroll down to view some of my work</p>
     <a href="#projects"><img class="arrow" src="assets/imgs/arrow.png" alt="arrow-down"></a>
@@ -83,68 +83,91 @@
 
         <div class="col-lg-4 mb-3 d-flex project-card">
           <div class="card bg-light flex-fill">
-            <a target="_blank" href="https://paulie-a.github.io/Tribute-page/">
-              <img class="card-img-top" src="assets/imgs/tribute.png" alt="">
+            <img class="card-img-top" src="assets/imgs/tribute.png" alt="">
+            <div class="card-body">
+              <p class="card-title">Tribute Page</p>
+              <p class="card-text">My first coding project, a simple HTML & CSS tribute page</p>
+              <a href="https://github.com/Paulie-A/Tribute-page">
+                <button type="button" class="btn btn-dark"><i class="fab fa-github social-icons"></i> Github</button>
+              </a>
+              <a href="https://paulie-a.github.io/Tribute-page/">
+                <button type="button" class="btn btn-success"><i class="fas fa-external-link-alt"></i> Live View</button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-3 d-flex project-card">
+          <div class="card bg-light flex-fill">
+              <img class="card-img-top" src="assets/imgs/photoblog.png" alt="">
               <div class="card-body">
-                <p class="card-title">Tribute Page</p>
-                <p class="card-text">My first coding project, a simple HTML and CSS project, the subject being Alan Turing - The Father of Modern Computing</p>
-
-            </a>
+                <p class="card-title">Photoblog</p>
+                <p class="card-text">Another early project. A CSS grid photoblog showcasing my own photos</p>
+                <a href="https://github.com/Paulie-A/Photogrid">
+                  <button type="button" class="btn btn-dark"><i class="fab fa-github social-icons"></i> Github</button>
+                </a>
+                <a href="https://paulie-a.github.io/Photogrid/">
+                  <button type="button" class="btn btn-success"><i class="fas fa-external-link-alt"></i> Live View</button>
+                </a>
           </div>
         </div>
       </div>
       <div class="col-lg-4 mb-3 d-flex project-card">
         <div class="card bg-light flex-fill">
-          <a target="_blank" href="https://paulie-a.github.io/Photogrid/">
-            <img class="card-img-top" src="assets/imgs/photoblog.png" alt="">
+            <img class="card-img-top" src="assets/imgs/technicaldocs.png" alt="technicaldocs">
             <div class="card-body">
-              <p class="card-title">Photoblog</p>
-              <p class="card-text">Photoblog - The Brief: Create a responsive photoblog with CSS Grids</p>
-          </a>
+              <p class="card-title">Technical documentation page</p>
+              <p class="card-text">A Freecodecamp project focused on styling and navigation</p>
+              <a href="https://github.com/Paulie-A/Technical-Documentation">
+                <button type="button" class="btn btn-dark"><i class="fab fa-github social-icons"></i> Github</button>
+              </a>
+              <a href="https://paulie-a.github.io/Technical-Documentation/">
+                <button type="button" class="btn btn-success"><i class="fas fa-external-link-alt"></i> Live View</button>
+              </a>
         </div>
       </div>
     </div>
     <div class="col-lg-4 mb-3 d-flex project-card">
       <div class="card bg-light flex-fill">
-        <a target="_blank" href="https://paulie-a.github.io/Technical-Documentation/">
-          <img class="card-img-top" src="assets/imgs/technicaldocs.png" alt="technicaldocs">
-          <div class="card-body">
-            <p class="card-title">Technical documentation page</p>
-            <p class="card-text">A Freecodecamp project focused on styling and navigation</p>
-        </a>
-      </div>
-    </div>
-    </div>
-    <div class="col-lg-4 mb-3 d-flex project-card">
-      <div class="card bg-light flex-fill">
-        <a target="_blank" href="https://paulie-a.github.io/random_programming_quotes/">
           <img class="card-img-top" src="assets/imgs/random_quotes.png" alt="random_quotes">
           <div class="card-body">
             <p class="card-title">Random Programming Quotes</p>
-            <p class="card-text">Simple Webapp which pulls a random programming quote from an exisiting API, with the option to tweet the quote</p>
-        </a>
+            <p class="card-text">REST API project, requesting and displaying random progamming quotes</p>
+              <a href="https://github.com/Paulie-A/random_programming_quotes">
+                <button type="button" class="btn btn-dark"><i class="fab fa-github social-icons"></i> Github</button>
+              </a>
+              <a href="https://paulie-a.github.io/random_programming_quotes/">
+                <button type="button" class="btn btn-success"><i class="fas fa-external-link-alt"></i> Live View</button>
+              </a>
       </div>
     </div>
     </div>
     <div class="col-lg-4 mb-3 d-flex project-card">
       <div class="card bg-light flex-fill">
-        <a target="_blank" href="https://paulie-a.github.io/Polymega/">
           <img class="card-img-top" src="assets/imgs/polymega.png" alt="polymega">
           <div class="card-body">
             <p class="card-title">Landing Page - Polymega</p>
             <p class="card-text">A Freecodecamp project to create a responsive product landing page</p>
-        </a>
+            <a href="https://github.com/Paulie-A/Polymega">
+              <button type="button" class="btn btn-dark"><i class="fab fa-github social-icons"></i> Github</button>
+            </a>
+            <a href="https://paulie-a.github.io/Polymega/">
+              <button type="button" class="btn btn-success"><i class="fas fa-external-link-alt"></i> Live View</button>
+            </a>
       </div>
     </div>
     </div>
     <div class="col-lg-4 mb-3 d-flex project-card">
       <div class="card bg-light flex-fill">
-        <a target="_blank" href="https://agile-plains-29357.herokuapp.com/">
           <img class="card-img-top" src="assets/imgs/dso.png" alt="dso">
           <div class="card-body">
             <p class="card-title">The DSO App</p>
-            <p class="card-text">A Node JS & Express App which calculate DSO (Debtor Sales Outstanding). This project is deployed to Heroku</p>
-        </a>
+            <p class="card-text">A Node JS & Express App which calculates DSO, deployed to Heroku</p>
+              <a href="https://github.com/Paulie-A/DSO_app">
+                <button type="button" class="btn btn-dark"><i class="fab fa-github social-icons"></i> Github</button>
+              </a>
+              <a href="https://agile-plains-29357.herokuapp.com/">
+                <button type="button" class="btn btn-success"><i class="fas fa-external-link-alt"></i> Live View</button>
+              </a>
       </div>
     </div>
     </div>
@@ -152,56 +175,62 @@
     </div>
 
 
-<p class="bootcamp-projects">A selection of my favourite Bootcamp codealong projects</p>
+    <p class="bootcamp-projects">A selection of my favourite Bootcamp codealong projects</p>
 
 
-<div class="container col-mb-2">
-  <div class="row">
+    <div class="container col-mb-2">
+      <div class="row">
+
+        <div class="col-lg-4 mb-2 d-flex project-card">
+          <div class="card bg-light flex-fill">
+              <img class="card-img-top" src="assets/imgs/Yelpcamp.png" alt="yelpcamp">
+              <div class="card-body">
+                <p class="card-title">Yelpcamp</p>
+                <p class="card-text">Express App with user logins, database persistence, deployed to Heroku</p>
+                  <a href="https://github.com/Paulie-A/Yelpcamp-v14Deployed">
+                    <button type="button" class="btn btn-dark"><i class="fab fa-github social-icons"></i> Github</button>
+                  </a>
+                  <a href="https://stark-lowlands-40347.herokuapp.com/">
+                    <button type="button" class="btn btn-success"><i class="fas fa-external-link-alt"></i> Live View</button>
+                  </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 mb-2 d-flex project-card">
+        <div class="card bg-light flex-fill">
+            <img class="card-img-top" src="assets/imgs/simon.png" alt="simon">
+            <div class="card-body">
+              <p class="card-title">Simon Game</p>
+              <p class="card-text">Javascript and Jquery DOM project from The App Brewery online Bootcamp</p>
+                <a href="https://github.com/Paulie-A/Simon-Game">
+                  <button type="button" class="btn btn-dark"><i class="fab fa-github social-icons"></i> Github</button>
+                </a>
+                <a href="https://paulie-a.github.io/Simon-Game/">
+                  <button type="button" class="btn btn-success"><i class="fas fa-external-link-alt"></i> Live View</button>
+                </a>
+        </div>
+      </div>
+    </div>
 
     <div class="col-lg-4 mb-2 d-flex project-card">
       <div class="card bg-light flex-fill">
-        <a target="_blank" href="https://stark-lowlands-40347.herokuapp.com/">
-          <img class="card-img-top" src="assets/imgs/Yelpcamp.png" alt="yelpcamp">
+          <img class="card-img-top" src="assets/imgs/guess_the_password.png" alt="guess_the_password">
           <div class="card-body">
-            <p class="card-title">Yelpcamp</p>
-            <p class="card-text">Yelpcamp is an Node JS Express App with user logins, MongoDB and Google Geo-location integration Deployed to Heroku</p>
-        </a>
+            <p class="card-title">Guess The Password</p>
+            <p class="card-text">Javascript/Jquery DOM project utlising D3</p>
+            <a href="https://github.com/Paulie-A/Guess-the-password">
+              <button type="button" class="btn btn-dark"><i class="fab fa-github social-icons"></i> Github</button>
+            </a>
+            <a href="https://paulie-a.github.io/Guess-the-password/">
+              <button type="button" class="btn btn-success"><i class="fas fa-external-link-alt"></i> Live View</button>
+            </a>
       </div>
     </div>
     </div>
 
-  <div class="col-lg-4 mb-2 d-flex project-card">
-    <div class="card bg-light flex-fill">
-      <a target="_blank" href="https://paulie-a.github.io/Simon-Game/">
-        <img class="card-img-top" src="assets/imgs/simon.png" alt="simon">
-        <div class="card-body">
-          <p class="card-title">Simon Game</p>
-          <p class="card-text">Simon Game - Javascript and Jquery DOM project from Angela Yu's 2019 Complete Web Developer Bootcamp</p>
-
-      </a>
     </div>
-  </div>
-  </div>
-
-  <div class="col-lg-4 mb-2 d-flex project-card">
-    <div class="card bg-light flex-fill">
-      <a target="_blank" href="https://paulie-a.github.io/Guess-the-password/">
-        <img class="card-img-top" src="assets/imgs/guess_the_password.png" alt="guess_the_password">
-        <div class="card-body">
-          <p class="card-title">Guess The Password</p>
-          <p class="card-text">Javascript/Jquery project</p>
-
-      </a>
     </div>
-  </div>
-  </div>
-
-
-
-</div>
-</div>
-
-
 
   </section>
   <hr>
@@ -224,23 +253,15 @@
           <i class="fab fa-js-square"></i>
           <p>Javascript</p>
         </li>
-        <!-- <li>
+      </ul>
+    </div>
+    <div id="stack-icons">
+      <ul class="grid">
+        <li>
           <i class="fab fa-node-js"></i>
           <p>Node JS</p>
         </li>
         <li>
-            <i class="fab fa-react"></i>
-            <p>React</p>
-          </li> -->
-          </ul>
-    </div>
-    <div id="stack-icons">
-      <ul class="grid">
-      <li>
-        <i class="fab fa-node-js"></i>
-        <p>Node JS</p>
-      </li>
-      <li>
           <i class="fab fa-react"></i>
           <p>React</p>
         </li>
@@ -249,25 +270,33 @@
   </section>
 
 
-
   <footer class="contact">
     <div id=contact>
       <p>Connect with me</p>
       </p>
       <ul>
-        <li><a target="_blank" href="https://twitter.com/Paulie_A79"><i class="fab fa-twitter social-icons"></i></a></li>
+        <li><a target="_blank" href="https://twitter.com/Paulie_A79"><i class="fab fa-twitter social-icons"></i></a>
+        </li>
         <li><a target="_blank" href="https://github.com/Paulie-A"><i class="fab fa-github social-icons"></i></a></li>
-        <li><a target="_blank" href="https://www.freecodecamp.org/paulie-a"><i class="fab fa-free-code-camp social-icons"></i></a></li>
-        <li><a target="_blank" href="https://www.instagram.com/paulie_a/?hl=en"><i class="fab fa-instagram social-icons"></i></a></li>
-        <li><a target="_blank" href="https://www.linkedin.com/in/paul-august-48784a55/"><i class="fab fa-linkedin social-icons"></i></a></li>
+        <li><a target="_blank" href="https://www.freecodecamp.org/paulie-a"><i
+              class="fab fa-free-code-camp social-icons"></i></a></li>
+        <li><a target="_blank" href="https://www.instagram.com/paulie_a/?hl=en"><i
+              class="fab fa-instagram social-icons"></i></a></li>
+        <li><a target="_blank" href="https://www.linkedin.com/in/paul-august-48784a55/"><i
+              class="fab fa-linkedin social-icons"></i></a></li>
       </ul>
 
-      <p>Made by Paul August. 2019</p>
+      <p>Made by Paul August. &copy <script>document.write(new Date().getFullYear());</script></p>
+
     </div>
   </footer>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
 </body>
 
 </html>

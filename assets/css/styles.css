@@ -42,7 +42,6 @@ html{
 
 h1 {
 	color: #414a4f;
-	text-transform: capitalize;
 	font: sans-serif;
 	margin-bottom: 35px;
 	text-align: center;
@@ -55,7 +54,7 @@ ul, nav{
 
 nav ul li {
     display: inline-block;
-	float: right;
+	/* float: right; */
     margin: 10px;
     /* margin-bottom: 15px; */
     /* margin-top: 25px; */
@@ -73,13 +72,8 @@ a:hover{
 	color: inherit;
 }
 
-a.btn{
-	color: #fff;
-	border-radius: 4px;
-	text-transform: uppercase;
-	background-color: #2196F3;
-	font-weight: 800;
-	text-align: center;
+.btn {
+	text-transform: none;
 }
 
 hr {
@@ -96,11 +90,8 @@ section{
 	padding: 50px;
 }
 
-
-
 section h3.title{
 	color: #414a4f;
-	text-transform: capitalize;
 	font: bold 32px 'Open Sans', sans-serif;
 	margin-bottom: 20px;
 	text-align: center;
@@ -233,7 +224,6 @@ header nav a :last-child{
 
 .stack .grid li{
 	padding: 0 5px;
-	/* margin-bottom: 50px; */
 	text-align: center;
 }
 
@@ -250,7 +240,6 @@ header nav a :last-child{
 }
 
 .stack .grid li p{
-    /* margin: 0; */
 	color: #414a4f;
 	font-size: 14px;
 }
@@ -280,9 +269,8 @@ footer ul li{
 	margin: 0 8px;
 }
 
-
 footer p{
-	font: : 'Open sans';
+	font: 'Open sans';
 	font-size: 16px;
 	color: rgba(255,255,255,0.6);
 	margin-bottom: 10px;
@@ -343,7 +331,7 @@ nav ul li {
 }
 
 .stack .grid li {
-	dislpay: flex;
+	display: flex;
     display: inline-block;
     padding: 0 5px;
     margin: auto;
