@@ -186,6 +186,32 @@ header nav a :last-child{
 	zoom: 1.05;
 }
 
+/* -------------------
+Work Section
+ ---------------------*/
+ .work .grid li{
+	padding: 20px;
+	height: 350px;
+	border-radius: 3px;
+	background-clip: content-box;
+	background-size: cover;
+	background-position: center;
+}
+
+/* .work .grid li{
+	padding: 20px;
+	height: 350px;
+	border-radius: 3px;
+	background-clip: content-box;
+	background-size: cover;
+	background-position: center;
+} */
+
+/* .work card-body{
+	width: 100%;
+	background-color: whitesmoke;
+} */
+
 
 /*--------------------
  	Projects Section
