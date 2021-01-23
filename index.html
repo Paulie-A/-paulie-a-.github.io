@@ -30,15 +30,17 @@
       <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse"
         data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false"
         aria-label="Toggle navigation"><span class="dark-text"><i class="fas fa-bars fa-1x"></i></span><a
-          class="navbar-brand" href="">Paul August</a></button>
+          class="navbar-brand" href="">Paul
+          August</a></button>
 
       <!-- Collapsible content -->
       <div class="collapse navbar-collapse" id="navbarSupportedContent1">
 
         <!-- Links -->
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#welcome-section">About <span class="sr-only">(current)</span></a>
+          <li class="nav-item" data-target="#sidenav-collapse-main" data-toggle="collapse">
+            <a class="nav-link" href="#welcome-section">About
+              <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#work">Work</a>
@@ -66,8 +68,8 @@
       Monday-Friday I currently work in Finance & Accounting, evenings and weekends I'm levelling up my programming
       skills
     </p>
-    <p>Scroll down to view some of my work</p>
-    <a href="#projects"><img class="arrow" src="assets/imgs/arrow.png" alt="arrow-down"></a>
+    <!-- <p>Scroll down to view some of my work</p>
+    <a href="#projects"><img class="arrow" src="assets/imgs/arrow.png" alt="arrow-down"></a> -->
   </section>
   <hr>
 
@@ -325,6 +327,12 @@
 
       <p>Made by Paul August. &copy <script>
           document.write(new Date().getFullYear());
+        </script>
+        <!-- Script to auto collapse navbar on click -->
+        <script>
+          $('.navbar-nav>li>a').on('click', function () {
+            $('.navbar-collapse').collapse('hide');
+          });
         </script>
       </p>
 
