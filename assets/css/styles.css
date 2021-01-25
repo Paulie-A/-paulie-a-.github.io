@@ -3,22 +3,27 @@
 -------------*/
 
 .fa-1x {
-font-size: 1.5rem;
+	font-size: 1.5rem;
 }
+
 .navbar-toggler.toggler-example {
-cursor: pointer;
+	cursor: pointer;
 }
+
 .dark-text {
-color: #305283;
+	color: #305283;
 }
 
 nav {
 	background-color: #fff;
-	color: #305283;
+	/* color: #305283; */
+	color: #306abd
 	opacity: 0.8;
 }
 
-nav, ul, li {
+nav,
+ul,
+li {
 	float: left;
 	color: #305283;
 	text-align: left;
@@ -33,11 +38,11 @@ nav, ul, li {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font: : 'Open sans';
+	font: 'Open sans';
 }
 
 
-html{
+html {
 	font: normal 16px sans-serif;
 	text-align: center;
 	color: #555;
@@ -47,31 +52,31 @@ html{
 h1 {
 	color: #414a4f;
 	font: sans-serif;
-	margin-bottom: 35px;
+	margin-bottom: 25px;
 	text-align: center;
 	font-weight: 400;
 }
 
-ul, nav{
+ul,
+nav {
 	list-style: none;
 }
 
 nav ul li {
-    display: inline-block;
-	/* float: right; */
-    margin: 10px;
-    /* margin-bottom: 15px; */
-    /* margin-top: 25px; */
+	display: inline-block;
+	margin: 10px;
+	/* margin-bottom: 15px;
+    margin-top: 25px; */
 }
 
-a{
+a {
 	text-decoration: none;
 	color: inherit;
 	cursor: pointer;
 	opacity: 0.9;
 }
 
-a:hover{
+a:hover {
 	opacity: 1;
 	color: inherit;
 }
@@ -81,27 +86,27 @@ a:hover{
 }
 
 hr {
-  border: dotted #eaf6f6 6px;
-  border-bottom: none;
-  width: 25%;
-  margin: 10px auto;
+	border: dotted #eaf6f6 6px;
+	border-bottom: none;
+	width: 25%;
+	margin: 10px auto;
 }
 
-section{
+section {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	padding: 50px;
 }
 
-section h3.title{
+section h3.title {
 	color: #414a4f;
 	font: bold 32px 'Open Sans', sans-serif;
 	margin-bottom: 20px;
 	text-align: center;
 }
 
-section p{
+section p {
 	max-width: 800px;
 	text-align: center;
 	margin-bottom: 35px;
@@ -109,7 +114,7 @@ section p{
 	line-height: 1.5;
 }
 
-ul.grid{
+ul.grid {
 	width: 100%;
 	display: flex;
 	justify-content: center;
@@ -121,7 +126,7 @@ ul.grid{
  	Header
 -------------*/
 
-header{
+header {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -134,11 +139,11 @@ header{
 	padding: 35px 100px 0;
 }
 
-header h2{
+header h2 {
 	font-family: 'Quicksand', sans-serif;
 }
 
-header nav{
+header nav {
 	display: flex;
 }
 
@@ -146,11 +151,11 @@ header nav a {
 	margin: 0 15px;
 }
 
-header nav a :first-child{
+header nav a :first-child {
 	margin-left: 0;
 }
 
-header nav a :last-child{
+header nav a :last-child {
 	margin-right: 0;
 }
 
@@ -161,35 +166,38 @@ header nav a :last-child{
  	Welcome Section
 ----------------*/
 
-.welcome-section{
+.welcome-section {
 	position: relative;
 	justify-content: center;
 	min-height: 80vh;
 	text-align: center;
+	/* background: rgb(255,255,255); */
+	/* background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(48, 106, 189, 1) 74%); */
 }
 
 .title {
-	margin-top: 40px;
+	margin-top: 30px;
 }
 
 .profile-img {
-  	height: 250px;
-  	width: 250px;
-  	padding-top: 10px;
-  	opacity: 0.9;
-  	filter: alpha(opacity=50);
+	height: 250px;
+	width: 250px;
+	/* padding-top: 10px; */
+	opacity: 0.9;
+	filter: alpha(opacity=50);
 	margin-top: 95px;
 	border-radius: 50%;
+	border: solid white 5px;
 }
 
-.arrow:hover{
+.arrow:hover {
 	zoom: 1.05;
 }
 
 /* -------------------
 Work Section
  ---------------------*/
- .work .grid li{
+.work .grid li {
 	padding: 20px;
 	height: 350px;
 	border-radius: 3px;
@@ -198,26 +206,12 @@ Work Section
 	background-position: center;
 }
 
-/* .work .grid li{
-	padding: 20px;
-	height: 350px;
-	border-radius: 3px;
-	background-clip: content-box;
-	background-size: cover;
-	background-position: center;
-} */
-
-/* .work card-body{
-	width: 100%;
-	background-color: whitesmoke;
-} */
-
 
 /*--------------------
  	Projects Section
 ---------------------*/
 
-.projects .grid li{
+.projects .grid li {
 	padding: 20px;
 	height: 350px;
 	border-radius: 3px;
@@ -231,7 +225,7 @@ Work Section
 	font-size: 12px;
 }
 
-.card-body{
+.card-body {
 	background-color: whitesmoke;
 }
 
@@ -252,24 +246,24 @@ Work Section
 	position: relative;
 }
 
-.stack .grid li{
+.stack .grid li {
 	padding: 0 5px;
 	text-align: center;
 }
 
-.stack .grid li i{
-    font-size: 35px;
-    margin-bottom: 10px;
+.stack .grid li i {
+	font-size: 35px;
+	margin-bottom: 10px;
 	color: #414a4f;
 }
 
-.stack .grid li h4{
+.stack .grid li h4 {
 	color: #414a4f;
-    font-size: 20px;
-    margin-bottom: 25px;
+	font-size: 20px;
+	margin-bottom: 25px;
 }
 
-.stack .grid li p{
+.stack .grid li p {
 	color: #414a4f;
 	font-size: 14px;
 }
@@ -279,34 +273,34 @@ Work Section
  	Footer
 -------------*/
 
-footer{
+footer {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
 	color: #fff;
-	background-color: #305283;
+	background-color: #306abd;
 	padding: 30px 0;
 }
 
-footer ul{
+footer ul {
 	display: flex;
 	margin-bottom: 25px;
 	font-size: 32px;
 }
 
-footer ul li{
+footer ul li {
 	margin: 0 8px;
 }
 
-footer p{
+footer p {
 	font: 'Open sans';
 	font-size: 16px;
-	color: rgba(255,255,255,0.6);
+	color: rgba(255, 255, 255, 0.6);
 	margin-bottom: 10px;
 }
 
-footer p a{
+footer p a {
 	color: #fff;
 }
 
@@ -314,59 +308,65 @@ footer p a{
 	align-content: center;
 }
 
-.social-icons{
+.social-icons {
 	color: #fff;
+}
+
+.social-icons:hover {
+	color: #414a4f;
+	zoom: 1.05;
 }
 
 
 
 @media only screen and (max-width: 500px) {
-    nav ul {
-        text-align: center;
-    }
-    nav ul li {
+	nav ul {
+		text-align: center;
+	}
+
+	nav ul li {
 		text-align: left;
-        margin: 20px;
-     }
+		margin: 20px;
+	}
 
 
-		.stack .grid li{
-			display: inline-block;
-			padding: 0 5px;
-			margin: 30px auto;
+	.stack .grid li {
+		display: inline-block;
+		padding: 0 5px;
+		margin: 30px auto;
+		text-align: center;
+	}
+
+	.stack {
+		display: flex;
+	}
+
+
+
+	/* Smartphones (portrait and landscape) ----------- */
+	@media only screen and (min-width : 320px) and (max-width : 480px) {
+		/* Styles */
+
+
+		nav ul {
 			text-align: center;
 		}
 
-		 .stack {
-			display: flex;
+		nav ul li {
+			text-align: left;
+			margin: 20px;
 		}
 
+		.project {
+			margin: 40px 0;
+		}
 
+		.stack .grid li {
+			display: flex;
+			display: inline-block;
+			padding: 0 5px;
+			margin: auto;
+			text-align: center;
+		}
 
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-width : 320px) and (max-width : 480px) {
-/* Styles */
-
-
-nav ul {
-		text-align: center;
-}
-
-nav ul li {
-	text-align: left;
-		margin: 20px;
-}
-
-.project {
-		margin: 40px 0;
-}
-
-.stack .grid li {
-	display: flex;
-    display: inline-block;
-    padding: 0 5px;
-    margin: auto;
-    text-align: center;
-}
-
-}
+	}
